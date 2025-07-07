@@ -1,90 +1,96 @@
 # Conspiracy API
 
-Welcome to the **Conspiracy API**!  
-This is a simple API built with Axum Rust that serves up 50 different conspiracy theories. I built this a practice project for myself, or just satisfying your curiosity about some of the wildest conspiracies out there!
+Welcome to the **Conspiracy API** — a fun and simple HTTP API built with Rust + Axum that serves up **50 unique conspiracy theories**.
+
+Whether you’re learning backend development or just curious about the wildest theories out there, this project is for you.
+
+---
 
 ## Features
 
-- Get a list of 50 unique conspiracy theories via a simple API
-- Filter by ID or categories
+- Retrieve 50 unique conspiracy theories
+- Filter by ID or category
+- Clean, readable JSON responses
+- Data loaded from a local JSON file
 
-## Endpoints
+---
 
-### Get All conspiracy theories
+## API Endpoints
 
-```
-GET /theories
-```
-Returns a JSON array of all 50 conspiracy theories.
+### Get all conspiracy theories  
+`GET /theories`  
+Returns an array of all conspiracy theories.
 
-### Get a conspiracy theory by ID
-
-```
-GET /theories/:id
-```
+### Get a theory by ID  
+`GET /theories/:id`  
 Returns the conspiracy theory with the specified ID.
 
-### Get all conspiracy theory in a Category
+### Filter theories by category  
+`GET /theories?category={category}`  
+Returns theories in the specified category (e.g. `space`, `tech`, `government`, etc.)
 
-```
-GET theories/?category={category}
-```
-Returns a list conspiracy theories in the specified category.
+### Get all categories  
+`GET /categories`  
+Returns a list of available categories.
 
-### Get all available categories
-
-```
-GET /categories
-```
-Returns a list of all categories
-
-## Getting Started
-
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/raoulkdev/conspiracy-api.git
-    cd conspiracy-api
-    ```
-
-2. **Install dependencies:**
-    ```bash
-    curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
-    ```
-
-3. **Start the API server:**
-    ```bash
-    cargo run
-    ```
-
-4. **Visit the API endpoints:**
-    - `http://localhost:3000/theories`
-    - `http://localhost:3000/theories/1` (replace `1` with the desired ID)
-    - `http://localhost:3000/theories/?category=space` (replace `space` with the desired category)
-    - `http://localhost:3000/categories`
+---
 
 ## Example Response
 
 ```json
 {
-    "id": 1,
-    "title": "The Moon Landing Was Filmed in a Studio",
-    "category": "space",
-    "description": "Some believe Stanley Kubrick directed the moon landing in a secret NASA sound-stage."
+  "id": 1,
+  "title": "The Moon Landing Was Filmed in a Studio",
+  "category": "space",
+  "description": "Some believe Stanley Kubrick directed the moon landing in a secret NASA soundstage."
 }
 ```
 
+---
+
+## Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/raoulkdev/conspiracy-api.git
+cd conspiracy-api
+```
+
+### 2. Install Rust (if you don’t have it)
+```bash
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+```
+
+### 3. Run the API
+```bash
+cargo run
+```
+
+### 4. Visit the endpoints
+- http://localhost:3000/theories  
+- http://localhost:3000/theories/1  
+- http://localhost:3000/theories?category=space  
+- http://localhost:3000/categories  
+
+---
+
 ## Why This Exists
 
-This project was created for me to practice Axum and fun. It can be used as:
-- A mock API for frontend or mobile app development
-- A demonstration of basic API creation
-- A quirky dataset for testing or inspiration
+I built this project to:
+- Practice building APIs with **Axum**
+- Create a fun, read-only API with quirky data
+- Serve as a mock API for frontend/mobile projects
+- Demonstrate clean API structure and JSON handling in Rust
+
+---
 
 ## Contributions
 
 Pull requests and suggestions are welcome!  
-Feel free to fork the repo and make it even more interesting.
+Feel free to fork it and add even more wild theories.
+
+---
 
 ## License
 
-This project is released under the MIT License.
+MIT License
