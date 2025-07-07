@@ -12,7 +12,7 @@ use serde_json::json;
 pub async fn all_theories() -> impl IntoResponse {
     let conspiracies_json = fs::read("src/conspiracies.json");
     match conspiracies_json { 
-        Ok(conspiracies) => (StatusCode::OK, conspiracies).into_response(),
+        Ok(conspiracies) => (StatusCode::OK, Json(conspiracies)).into_response(),
         Err(e) => (StatusCode::INTERNAL_SERVER_ERROR, Json(json!(format!("{e}")))).into_response()
     }
 }
