@@ -2,7 +2,7 @@ use axum::Router;
 use axum::routing::get;
 use colored::Colorize;
 use tokio::net::TcpListener;
-use crate::responses::hello_world;
+use crate::responses::{all_categories, all_theories, theories_by_category, theory_by_id};
 
 pub struct Server {
     address: & 'static str
@@ -26,7 +26,11 @@ impl Server {
         }
         
         fn router() -> Router {
-            Router::new().route("/hello-world", get(hello_world))
+            Router::new()
+                .route("/theories", get(all_theories))
+                .route("/theories/{capture}", get(theory_by_id))
+                .route("/theories/", get(theories_by_category))
+                .route("/categories", get(all_categories))
         }
     }
 }

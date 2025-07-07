@@ -1,0 +1,308 @@
+[
+  {
+    "id": 1,
+    "title": "The Moon Landing Was Filmed in a Studio",
+    "category": "space",
+    "description": "Some believe Stanley Kubrick directed the moon landing in a secret NASA sound-stage."
+  },
+  {
+    "id": 2,
+    "title": "The Earth Is Flat",
+    "category": "science",
+    "description": "A growing movement argues that Earth is not a sphere but a flat disc."
+  },
+  {
+    "id": 3,
+    "title": "9/11 Was an Inside Job",
+    "category": "government",
+    "description": "Some believe the U.S. government orchestrated the 9/11 attacks for political gain."
+  },
+  {
+    "id": 4,
+    "title": "Chemtrails Are Poisoning Us",
+    "category": "environment",
+    "description": "Contrails left by aircraft are thought to be chemical agents used for mind control or weather modification."
+  },
+  {
+    "id": 5,
+    "title": "The Illuminati Controls the World",
+    "category": "secret society",
+    "description": "A secret elite group is said to control all major world events behind the scenes."
+  },
+  {
+    "id": 6,
+    "title": "The Government Hides Alien Encounters",
+    "category": "aliens",
+    "description": "Many believe that extraterrestrial visits are routinely covered up by government agencies."
+  },
+  {
+    "id": 7,
+    "title": "The Denver Airport Is an Illuminati Base",
+    "category": "infrastructure",
+    "description": "Denver International Airport is said to house secret underground bunkers and Illuminati symbols."
+  },
+  {
+    "id": 8,
+    "title": "The COVID-19 Pandemic Was Planned",
+    "category": "health",
+    "description": "Some suggest the global pandemic was intentionally orchestrated to control populations."
+  },
+  {
+    "id": 9,
+    "title": "Vaccines Contain Microchips",
+    "category": "health",
+    "description": "A fringe theory posits that COVID-19 vaccines are a method for governments to implant tracking chips."
+  },
+  {
+    "id": 10,
+    "title": "Birds Aren’t Real — They're Drones",
+    "category": "technology",
+    "description": "A satirical theory claims birds were replaced by drones for surveillance purposes."
+  },
+  {
+    "id": 11,
+    "title": "The Titanic Was Swapped with the Olympic",
+    "category": "history",
+    "description": "Some believe the ship that sank was actually the RMS Olympic, switched to collect insurance money."
+  },
+  {
+    "id": 12,
+    "title": "Paul McCartney Died in 1966",
+    "category": "celebrity",
+    "description": "According to this theory, the real Paul died and was replaced by a lookalike."
+  },
+  {
+    "id": 13,
+    "title": "The Mandela Effect Is Proof of Parallel Universes",
+    "category": "paranormal",
+    "description": "Shared false memories are interpreted as evidence of alternate realities."
+  },
+  {
+    "id": 14,
+    "title": "Elvis Presley Faked His Death",
+    "category": "celebrity",
+    "description": "Fans claim Elvis went into hiding to escape fame and is still alive."
+  },
+  {
+    "id": 15,
+    "title": "Area 51 Houses Alien Technology",
+    "category": "aliens",
+    "description": "The U.S. government is said to store and study alien spacecraft at Area 51."
+  },
+  {
+    "id": 16,
+    "title": "Bigfoot Is Real and Hidden by the Government",
+    "category": "cryptids",
+    "description": "Sightings of a giant humanoid creature suggest the government is concealing its existence."
+  },
+  {
+    "id": 17,
+    "title": "The CIA Created HIV",
+    "category": "health",
+    "description": "The virus is believed by some to have been engineered by the CIA to target minority populations."
+  },
+  {
+    "id": 18,
+    "title": "JFK Was Killed by the Deep State",
+    "category": "government",
+    "description": "The assassination was allegedly orchestrated by a secret faction within the government."
+  },
+  {
+    "id": 19,
+    "title": "The U.S. Government Controls the Weather",
+    "category": "environment",
+    "description": "Projects like HAARP are thought to be used to manipulate the weather for military purposes."
+  },
+  {
+    "id": 20,
+    "title": "The Freemasons Run the World",
+    "category": "secret society",
+    "description": "A centuries-old fraternal group is believed to secretly control governments and economies."
+  },
+  {
+    "id": 21,
+    "title": "Princess Diana Was Assassinated",
+    "category": "royalty",
+    "description": "It is believed she was killed to prevent scandal or to protect the monarchy's image."
+  },
+  {
+    "id": 22,
+    "title": "The Moon Is a Hologram",
+    "category": "space",
+    "description": "A theory claims the moon is not real, but a projection created for unknown purposes."
+  },
+  {
+    "id": 23,
+    "title": "Time Travel Is Being Hidden from the Public",
+    "category": "technology",
+    "description": "Time travel allegedly exists but is kept secret by world powers."
+  },
+  {
+    "id": 24,
+    "title": "The Government Can Read Minds with 5G",
+    "category": "technology",
+    "description": "A theory suggests 5G networks are part of a mind control scheme."
+  },
+  {
+    "id": 25,
+    "title": "The Rothschilds Control All Banks",
+    "category": "finance",
+    "description": "The powerful Rothschild family is rumored to have control over global financial systems."
+  },
+  {
+    "id": 26,
+    "title": "The Matrix Is Real",
+    "category": "simulation",
+    "description": "Reality is believed by some to be an artificial simulation."
+  },
+  {
+    "id": 27,
+    "title": "Antarctica Is a Secret Nazi Base",
+    "category": "history",
+    "description": "Nazi forces are rumored to have built hidden bases in Antarctica during WWII."
+  },
+  {
+    "id": 28,
+    "title": "The Government Uses MK-Ultra to Control Minds",
+    "category": "government",
+    "description": "The real MK-Ultra program has spawned beliefs about current mind control operations."
+  },
+  {
+    "id": 29,
+    "title": "The Simpsons Predict the Future",
+    "category": "media",
+    "description": "The show has eerily predicted many real-life events, suggesting hidden knowledge."
+  },
+  {
+    "id": 30,
+    "title": "The Real President Is a Clone",
+    "category": "politics",
+    "description": "It’s theorized that world leaders have been replaced by clones."
+  },
+  {
+    "id": 31,
+    "title": "Lizard People Rule the Earth",
+    "category": "aliens",
+    "description": "Shape-shifting reptilian aliens are believed to infiltrate high-ranking positions."
+  },
+  {
+    "id": 32,
+    "title": "CERN Opened a Portal to Another Dimension",
+    "category": "science",
+    "description": "Some say CERN’s particle experiments are tearing holes in the universe."
+  },
+  {
+    "id": 33,
+    "title": "COVID-19 Vaccines Cause Magnetism",
+    "category": "health",
+    "description": "Viral videos claim vaccinated individuals can attract metal objects."
+  },
+  {
+    "id": 34,
+    "title": "Avian Flu Was a Bioweapon",
+    "category": "health",
+    "description": "Some believe avian flu outbreaks were artificially created."
+  },
+  {
+    "id": 35,
+    "title": "NASA Is Lying About Space",
+    "category": "space",
+    "description": "NASA allegedly fakes images and hides the truth about space travel."
+  },
+  {
+    "id": 36,
+    "title": "Hollow Earth Theory",
+    "category": "geography",
+    "description": "The Earth is thought to be hollow and contain hidden civilizations."
+  },
+  {
+    "id": 37,
+    "title": "The Queen Was a Reptilian",
+    "category": "royalty",
+    "description": "Some believe Queen Elizabeth II was a shape-shifting alien."
+  },
+  {
+    "id": 38,
+    "title": "The Internet Is a Mind Control Tool",
+    "category": "technology",
+    "description": "It is theorized that internet usage is manipulated to influence thoughts."
+  },
+  {
+    "id": 39,
+    "title": "Hollywood Is Run by a Satanic Cult",
+    "category": "celebrity",
+    "description": "Some claim that elite circles in Hollywood worship dark forces."
+  },
+  {
+    "id": 40,
+    "title": "The Black Knight Satellite Is Watching Us",
+    "category": "space",
+    "description": "An object in orbit is believed to be an alien satellite monitoring Earth."
+  },
+  {
+    "id": 41,
+    "title": "The U.S. Never Killed Osama Bin Laden",
+    "category": "military",
+    "description": "The reported killing of Bin Laden is believed to have been staged."
+  },
+  {
+    "id": 42,
+    "title": "The Great Fire of London Was Planned",
+    "category": "history",
+    "description": "The fire was allegedly set deliberately to clear space for redevelopment."
+  },
+  {
+    "id": 43,
+    "title": "The Moon Is an Artificial Satellite",
+    "category": "space",
+    "description": "Some think the Moon was built or placed in orbit by aliens."
+  },
+  {
+    "id": 44,
+    "title": "Disney Freezes Walt Disney’s Body",
+    "category": "celebrity",
+    "description": "The founder is rumored to be cryogenically frozen under Disneyland."
+  },
+  {
+    "id": 45,
+    "title": "There Are Secret Bases on Mars",
+    "category": "space",
+    "description": "Mars is believed to host hidden military or alien outposts."
+  },
+  {
+    "id": 46,
+    "title": "TWA Flight 800 Was Shot Down",
+    "category": "military",
+    "description": "Eyewitnesses and theorists claim the flight was downed by a missile."
+  },
+  {
+    "id": 47,
+    "title": "The Georgia Guidestones Were a Globalist Message",
+    "category": "society",
+    "description": "The monument’s inscriptions are seen as evidence of elite agendas."
+  },
+  {
+    "id": 48,
+    "title": "HAARP Can Cause Earthquakes",
+    "category": "environment",
+    "description": "The HAARP facility is believed to have weaponized weather and seismic activity."
+  },
+  {
+    "id": 49,
+    "title": "The Deep Web Is Controlled by the Government",
+    "category": "technology",
+    "description": "It’s believed that intelligence agencies monitor and control hidden parts of the internet."
+  },
+  {
+    "id": 50,
+    "title": "Celebrities Sell Their Souls for Fame",
+    "category": "celebrity",
+    "description": "Success in showbiz is rumored to require pacts with dark forces."
+  },
+  {
+    "id": 51,
+    "title": "There is a mcdonalds in the pentagon",
+    "category": "McDonalds",
+    "description": "idk i heard it in a song"
+  }
+]

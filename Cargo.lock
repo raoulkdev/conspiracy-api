@@ -127,6 +127,7 @@ dependencies = [
  "colored",
  "futures",
  "serde",
+ "serde_json",
  "tokio",
 ]
 
