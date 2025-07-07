@@ -6,14 +6,27 @@ use axum::http::{StatusCode};
 use axum::Json;
 use axum::response::IntoResponse;
 use serde::{Deserialize, Serialize};
-use serde_json::json;
+use serde_json::{json, Value};
 
 // Return conspiracies.json
 pub async fn all_theories() -> impl IntoResponse {
-    let conspiracies_json = fs::read("src/conspiracies.json");
-    match conspiracies_json { 
-        Ok(conspiracies) => (StatusCode::OK, Json(conspiracies)).into_response(),
-        Err(e) => (StatusCode::INTERNAL_SERVER_ERROR, Json(json!(format!("{e}")))).into_response()
+    let conspiracies_json = fs::read_to_string("src/conspiracies.json");
+    match conspiracies_json {
+        Ok(contents) => {
+            match serde_json::from_str::<Value>(&contents) {
+                Ok(json_data) => (StatusCode::OK, Json(json_data)).into_response(),
+                Err(_) => (
+                    StatusCode::INTERNAL_SERVER_ERROR,
+                    Json(json!({ "error": "Invalid JSON structure" })),
+                )
+                    .into_response(),
+            }
+        }
+        Err(e) => (
+            StatusCode::INTERNAL_SERVER_ERROR,
+            Json(json!({ "error": e.to_string() })),
+        )
+            .into_response(),
     }
 }
 
