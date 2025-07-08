@@ -4,6 +4,8 @@ Welcome to the **Conspiracy API** — a fun and simple HTTP API built with Rust 
 
 Whether you’re learning backend development or just curious about the wildest theories out there, this project is for you.
 
+You can try the API live here: https://conspiracy-api.onrender.com
+
 ---
 
 ## Features
