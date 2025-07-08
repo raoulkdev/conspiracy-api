@@ -7,7 +7,14 @@ Whether you’re learning backend development or just curious about the wildest 
 You can try the API live here: https://conspiracy-api.onrender.com
 
 ---
+## Built With
 
+- 🦀 Rust (2021 edition)
+- 🕸️ [Axum](https://github.com/tokio-rs/axum) — Web framework
+- 📦 Serde — JSON serialization
+- 🔧 Tokio — Async runtime
+
+---
 ## Features
 
 - Retrieve 50 unique conspiracy theories
