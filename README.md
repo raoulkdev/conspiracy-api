@@ -1,8 +1,6 @@
 # Conspiracy API
 
-Welcome to the **Conspiracy API** — a fun and simple HTTP API built with Rust + Axum that serves up **50 unique conspiracy theories**.
-
-Whether you’re learning backend development or just curious about the wildest theories out there, this project is for you.
+This a fun and simple HTTP API built with Rust + Axum that return **50 unique conspiracy theories**.
 
 You can try the API live here: https://conspiracy-api.onrender.com
 
@@ -87,8 +85,7 @@ cargo run
 
 I built this project to:
 - Practice building APIs with **Axum**
-- Create a fun, read-only API with quirky data
-- Serve as a mock API for frontend/mobile projects
+- Create a fun API
 - Demonstrate clean API structure and JSON handling in Rust
 
 ---
