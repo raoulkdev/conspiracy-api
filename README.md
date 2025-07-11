@@ -93,7 +93,7 @@ I built this project to:
 ## Contributions
 
 Pull requests and suggestions are welcome!  
-Feel free to fork it and add even more wild theories.
+Feel free to fork it and add more theories.
 
 ---
 
